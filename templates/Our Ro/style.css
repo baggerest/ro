@@ -1,0 +1,117 @@
+body {
+	text-align: center;
+	color: #6A6A6A;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F8F8F8;
+}
+
+div#all {
+	margin: auto;
+	width: 650px;
+	background-image:url(images/cp_02.gif);
+	background-repeat: repeat-y;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #E7E7E7;
+	border-left-color: #E7E7E7;
+}
+
+div#header {
+	width: 650px;
+	background-image:url(images/head.gif);
+	height: 349px;
+}
+
+div#header-sep {
+	width: 450px;
+	float: left;
+	height: 100px;
+}
+
+div#header-status {
+	width: 610px;
+	float: right;
+	height: 120px;
+	text-align: left;
+	padding-top: 15px;
+}
+
+div#maincontent {
+	width: 650px;
+}
+
+div#menu {
+	width: 140px;
+	float: left;
+	text-align: right;
+}
+
+div#sep {
+	width: 20px;
+	float: left;
+}
+
+div#content {
+	width: 460px;
+	float: left;
+	text-align: left;
+}
+
+div#footer {
+	width: 650px;
+	background-image:url(images/bt.gif);
+	height: 80px;
+	clear: both;
+}
+
+.copyright {
+	color: #333333;
+	font-size: 11px;
+	
+	
+}
+
+.menu-header {
+	
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #bd70ff;
+	display: block;
+	text-align: center;
+}
+
+.content-header {
+	font-weight: bold;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #b0ddff;
+	display: block;
+}
+
+a{
+	color: #4d4d4d;
+	
+	cursor: default;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #87b4e0;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: overline;
+}
+
+input, textarea, select, radio {
+  font-family : Verdana; 
+  color: #000000;
+  font-size: 10pt; border: 1px solid #DDDDDD;
+  background-color: #F2F2F2;
+}

@@ -1,0 +1,108 @@
+body {
+	text-align: center;
+	color: #757E88;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #8B959E;
+}
+
+div#all {
+	margin: auto;
+	width: 650px;
+	background-image:url(images/cp_02.gif);
+	background-repeat: repeat-y;
+}
+
+div#header {
+	width: 650px;
+	background-image:url(images/cp_01.gif);
+	height: 266px;
+}
+
+div#header-sep {
+	width: 450px;
+	float: left;
+	height: 266px;
+}
+
+div#header-status {
+	width: 200px;
+	float: left;
+	height: 200px;
+	text-align: left;
+}
+
+div#maincontent {
+	width: 650px;
+}
+
+div#menu {
+	width: 140px;
+	float: left;
+	text-align: right;
+}
+
+div#sep {
+	width: 20px;
+	float: left;
+}
+
+div#content {
+	width: 460px;
+	float: left;
+	text-align: left;
+}
+
+div#footer {
+	width: 650px;
+	background-image:url(images/cp_03.gif);
+	height: 105px;
+	clear: both;
+}
+
+.copyright {
+	color: #f8f8f8;
+	font-size: 10px;
+}
+
+.menu-header {
+	font-weight: bold;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #8B959E;
+	display: block;
+	text-align: center;
+}
+
+.content-header {
+	font-weight: bold;
+	padding-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8B959E;
+	display: block;
+}
+
+a{
+	color: #A7ADB4;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #757E88;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+
+input, textarea, select, radio {
+  font-family : Verdana; 
+  color: #333333;
+  font-size: 8pt; border: 1px solid #DDDDDD;
+  background-color: #F2F2F2;
+}
